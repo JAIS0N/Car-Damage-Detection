@@ -1,0 +1,15 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+names: 
+  0: crack
+  1: crash
+  2: dent
+  3: dislocated part
+  4: glass shatter
+  5: lamp broken
+  6: no part
+  7: rub
+  8: scratch
+  9: tire flat
