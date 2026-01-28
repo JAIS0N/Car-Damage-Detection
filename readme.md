@@ -41,11 +41,11 @@ This system is designed to assist in **insurance claim automation, vehicle inspe
 ---
 ## 📸 Sample Output
 
-![Home](./screenshot/home.png)
+![Home](./screenshots/home.png)
 
-![Car Damage Detection Comparison](./screenshot/imagcomp.png)
+![Car Damage Detection Comparison](./screenshots/imagcomp.png)
 
-![Car Damage Analysis](./screenshot/damageanalysis.png)
+![Car Damage Analysis](./screenshots/damageanalysis.png)
 
 ## 📂 Project Structure
 
