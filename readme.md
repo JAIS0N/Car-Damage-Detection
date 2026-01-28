@@ -39,33 +39,26 @@ This system is designed to assist in **insurance claim automation, vehicle inspe
 - **Utilities:** NumPy, Logging  
 
 ---
+## 📸 Sample Output
+
+![Home](screenshot/home.png)
+
+![Car Damage Detection Comparison](screenshot/imagcomp.png)
+
+![Car Damage Analysis](screenshot/damageanalysis.png)
 
 ## 📂 Project Structure
-moviehub/
-│
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
-│   ├── server.js
-│   └── package.json
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   └── App.jsx
-│   ├── public/
-│   └── vite.config.js
-│
-└── README.md
 
+car-damage-detection/
+├── models/
+│ └── best_model.pt
+├── src/
+│ └── car_damage_detector.py
+├── dataset/
+├── notebooks/
+├── README.md
+└── requirements.txt
 
-
----
 
 ## 🚘 Supported Damage Types
 - Crack  
