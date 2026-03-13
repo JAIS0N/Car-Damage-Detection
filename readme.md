@@ -1,6 +1,6 @@
-# 🚗 Car Damage Detection & Cost Estimation using YOLOv8
+#  Car Damage Detection & Cost Estimation using YOLOv8
 
-## 📌 Project Overview
+##  Project Overview
 This project implements an end-to-end **car damage detection system** using **YOLOv8** for object detection.  
 It not only detects damaged car parts from images but also:
 - Classifies the **type of damage**
@@ -12,18 +12,18 @@ This system is designed to assist in **insurance claim automation, vehicle inspe
 
 ---
 
-## 🎯 Key Features
-- ✅ Real-time car damage detection using YOLOv8
-- ✅ Supports **multiple damage types**
-- ✅ Severity classification: *Light, Moderate, Severe*
-- ✅ Damage **area-based severity calculation**
-- ✅ Automatic **repair cost estimation**
-- ✅ Bounding box visualization with labels
-- ✅ CPU & GPU (CUDA) support
+##  Key Features
+- Real-time car damage detection using YOLOv8
+- Supports **multiple damage types**
+- Severity classification: *Light, Moderate, Severe*
+- Damage **area-based severity calculation**
+- Automatic **repair cost estimation**
+- Bounding box visualization with labels
+- CPU & GPU (CUDA) support
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 - **Model:** YOLOv8 (Ultralytics)
 - **Framework:** PyTorch
 - **Input:** Car images
@@ -32,7 +32,7 @@ This system is designed to assist in **insurance claim automation, vehicle inspe
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python  
 - **Deep Learning:** PyTorch, YOLOv8 (Ultralytics)  
 - **Image Processing:** OpenCV, PIL  
@@ -47,7 +47,7 @@ This system is designed to assist in **insurance claim automation, vehicle inspe
 
 ![Car Damage Analysis](./screenshots/damageanalysis.png)
 
-## 📂 Project Structure
+##  Project Structure
 
 car-damage-detection/
 ├── models/
@@ -60,7 +60,7 @@ car-damage-detection/
 └── requirements.txt
 
 
-## 🚘 Supported Damage Types
+##  Supported Damage Types
 - Crack  
 - Crash  
 - Dent  
@@ -74,7 +74,7 @@ car-damage-detection/
 
 ---
 
-## ⚙️ Severity Classification Logic
+##  Severity Classification Logic
 Severity is determined by the **percentage of image area covered by the detected damage**:
 
 | Severity | Criteria |
@@ -87,27 +87,27 @@ Severity thresholds vary based on damage type.
 
 ---
 
-## 💰 Cost Estimation
+##  Cost Estimation
 Each detected damage includes an estimated repair cost based on:
 - Damage type
 - Severity level
 
-> ⚠️ Cost values are approximate and can be customized for real-world use.
+>  Cost values are approximate and can be customized for real-world use.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 ```bash
 git clone https://github.com/your-username/car-damage-detection.git
 cd car-damage-detection
 pip install -r requirements.txt
 
-▶️ Usage
+ Usage
 
 python car_damage_detector.py
 
 
-📊 Output Example
+ Output Example
 
 Each detection returns:
 
@@ -120,7 +120,7 @@ Each detection returns:
   "location": "lower right"
 }
 
-📸 Visualization
+ Visualization
 
 Detected damages are displayed with:
 
@@ -132,7 +132,7 @@ Confidence scores
 
 (Add screenshots here)
 
-🚀 Future Enhancements
+ Future Enhancements
 
 Web app deployment using Flask / Streamlit
 
@@ -144,14 +144,6 @@ VIN-based vehicle metadata integration
 
 Cloud deployment (AWS / GCP)
 
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork the repository and submit a pull request.
-
-📄 License
-
-This project is licensed under the MIT License.
 
 👤 Author
 
