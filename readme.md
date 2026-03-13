@@ -145,8 +145,4 @@ VIN-based vehicle metadata integration
 Cloud deployment (AWS / GCP)
 
 
-👤 Author
 
-Atharva Patade
-🎓 MS in Information Systems (CSULB)
-🔗 GitHub: https://github.com/Atharva2223
